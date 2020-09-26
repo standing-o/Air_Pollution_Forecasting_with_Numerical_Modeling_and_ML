@@ -8,8 +8,10 @@
 **2**. Visualization with MATLAB, Simple implementaion of numerical modeling with refined dataset [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/tree/master/2_Visualization_and_Simple_numerical_modeling)  
 
 <div align="center">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="45%" title="Wind">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig3.jpg?raw=True" width="45%" title="Air pollution"> <br>  
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="45%">
+<figcaption>하얀 강아지</figcaption>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig3.jpg?raw=True" width="45%"> <br>
+<figcaption>하얀 강아지</figcaption>
 </div>
 
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
