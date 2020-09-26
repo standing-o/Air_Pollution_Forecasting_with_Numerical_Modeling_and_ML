@@ -10,7 +10,8 @@
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="45%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig3.jpg?raw=True" width="45%"> <br>  
-  
+</div>
+
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
 So we came up with a way to get empty space data through **interpolation**.
 
