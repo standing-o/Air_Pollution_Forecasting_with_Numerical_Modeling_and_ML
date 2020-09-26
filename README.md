@@ -13,7 +13,7 @@
 </div>
 
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
-So we came up with a way to get empty space data through **interpolation**.
+So we come up with a way to get empty space data through **interpolation**.
 
 **3**. IDW
 
