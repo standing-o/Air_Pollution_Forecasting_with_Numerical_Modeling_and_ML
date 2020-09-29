@@ -1,4 +1,4 @@
-# Air_pollution_forecasting_with_Numerical_modeling_and_ML (20200902 ~ )
+# Air pollution forecasting with Numerical modeling and ML (20200902 ~ )
 - This project is designed to predict the levels of air pollution in South Korea by using numerical modeling and machine learning techniques.
 - This project is maintained by 오서영, [신영민](https://github.com/young3984)
 
