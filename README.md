@@ -20,9 +20,11 @@ We apply **cubic** interpolation to wind vector dataset by using scipy. It retur
 Also, We use **IDW** to air pollution dataset. IDW is an interpolation method that computes the score of query points based on the scores of their k-nearest neighbours, weighted by the inverse of their distances.  
 
 <div align="center">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="35%">
-  <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="35%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="35%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="45%">
+</div>
+<div align="center">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="45%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="45%"> <br>
 </div>
 
 ## Results
