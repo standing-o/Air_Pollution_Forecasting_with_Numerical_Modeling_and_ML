@@ -15,17 +15,17 @@
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
 So we come up with a way to get empty space data through **interpolation**.
 
-**3**. Cubic Interpolation and Inverse Distance Weighted (IDW)
+**3**. Cubic Interpolation and Inverse Distance Weighted (IDW)  
+<div align="center">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="30%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="30%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="30%"> <br>
+</div>  
+  
 We apply **cubic** interpolation to wind vector dataset by using scipy. It returns the value determined from a peicewise cubic, continuously differentiable and approximately curvature-minimizing polynomial surface.  
 Also, We use **IDW** to air pollution dataset. IDW is an interpolation method that computes the score of query points based on the scores of their k-nearest neighbours, weighted by the inverse of their distances.  
 
-<div align="center">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="45%">
-</div>
-<div align="center">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="45%"> <br>
-</div>
+
 
 ## Results
 
