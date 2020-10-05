@@ -15,7 +15,7 @@
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
 So we come up with a way to get empty space data through **interpolation**.
 
-**3**. Cubic Interpolation and Inverse Distance Weighted (IDW)  
+**3**. Cubic Interpolation and Inverse Distance Weighted (IDW) [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/3_Vector_interpolation_with_wind_and_air_pollution_dataset)  
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="45%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="50%"> <br>
