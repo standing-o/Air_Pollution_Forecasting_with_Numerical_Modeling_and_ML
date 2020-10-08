@@ -10,8 +10,8 @@
 **2**. Visualization with MATLAB, Simple implementaion of numerical modeling with refined dataset __ [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/tree/master/2_Visualization_and_Simple_numerical_modeling)  
 
 <div align="center">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="45%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="40%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="40%"> <br>
 </div>
 
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
@@ -33,13 +33,14 @@ Central difference method, Neumann boundary condition
 
 
 ## Results - Visualization
-1. Mathematical Modeling - Convection-diffusion equation  
+> 1. Mathematical Modeling - Convection-diffusion equation  
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/mesh.gif?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/contour.gif?raw=True" width="40%"> <br>
 </div>
 
-2. Machine Learning - LSTM
+  
+> 2. Machine Learning - LSTM
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real1.jpg?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM1.jpg?raw=True" width="40%"> <br>  
@@ -47,7 +48,8 @@ Central difference method, Neumann boundary condition
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real2.jpg?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM2.jpg?raw=True" width="40%"> <br>
-</div>
+</div>  
+  
 ## Dataset
 [1] 기상자료개방포털, https://data.kma.go.kr/cmmn/main.do
 [2] 에어코리아, https://www.airkorea.or.kr/index
