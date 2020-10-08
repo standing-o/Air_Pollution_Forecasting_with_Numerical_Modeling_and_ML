@@ -1,4 +1,4 @@
-# Air pollution forecasting with Numerical modeling and ML (20200902 ~ )
+# Air pollution forecasting with Numerical modeling and ML (20200902 ~ 20201008)
 - This project is designed to predict the levels of air pollution in South Korea by using numerical modeling and machine learning techniques.
 - This project is maintained by 오서영, [신영민](https://github.com/young3984)
 
@@ -34,16 +34,20 @@ Central difference method, Neumann boundary condition
 
 ## Results - Visualization
 1. Mathematical Modeling - Convection-diffusion equation  
+<div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/mesh.gif?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/contour.gif?raw=True" width="40%"> <br>
+</div>
 
-2. Machine Learning - RNN
+2. Machine Learning - LSTM
+<div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real1.jpg?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM1.jpg?raw=True" width="40%"> <br>  
-
+</div>
+<div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real2.jpg?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM2.jpg?raw=True" width="40%"> <br>
-
+</div>
 ## Dataset
 [1] 기상자료개방포털, https://data.kma.go.kr/cmmn/main.do
 [2] 에어코리아, https://www.airkorea.or.kr/index
