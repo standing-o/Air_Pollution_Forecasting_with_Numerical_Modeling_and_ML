@@ -31,7 +31,7 @@ Central difference method, Neumann boundary condition
   
 Convection-diffusion equation and discretized one  
 <div align="center">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/cde1.jpg?raw=True" width="45%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/cde1.jpg?raw=True" width="50%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/cde2.jpg?raw=True" width="45%">
 </div>
   
