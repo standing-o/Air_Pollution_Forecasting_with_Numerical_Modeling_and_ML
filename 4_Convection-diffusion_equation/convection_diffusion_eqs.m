@@ -1,17 +1,13 @@
 clear; clc; close all;
 
-% x, y Í∞? 
 x=load('Latitude.txt');
 y=load('Longitude.txt');
 
 map = imread('map.jpg');
 
 x=x*133330; y=y*133330;
-% Í∏∞Î≥∏ Í∞íÎì§ ?Ñ£Í∏?
-
 
 % make D size(1,23);
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 D=zeros(1,23);
 for ik=1:5
     D(ik)=100;
@@ -26,7 +22,6 @@ for ik=20:23
     D(ik)=1000;
 end
   
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 title_D=sprintf('z_D');
@@ -46,10 +41,10 @@ return
         imwrite(imind,cm,filename,'gif','WriteMode','append')
 end
 return
-% ÎØ∏ÏÑ∏Î®ºÏ? ?ç∞?ù¥?Ñ∞
+
 pol=load('Hour_1_inter_p.txt');
 
-% ?Ö∏?ù¥Îß? Í≤ΩÍ≥Ñ Ï°∞Í±¥
+
 pol(1,:)=pol(2,:); pol(n,:)=pol(n-1,:);
 pol(:,1)=pol(:,2); pol(:,n)=pol(:,n-1);
 
@@ -130,5 +125,3 @@ end
 title_error=sprintf('z_error');
 csvwrite(title_error,error);   
 error
-
-
