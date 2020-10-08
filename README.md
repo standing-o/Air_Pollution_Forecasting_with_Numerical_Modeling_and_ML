@@ -9,7 +9,7 @@
 
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig3.jpg?raw=True" width="45%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="45%"> <br>
 </div>
 
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
@@ -18,16 +18,29 @@ So we come up with a way to get empty space data through **interpolation**.
 **3**. Cubic Interpolation and Inverse Distance Weighted (IDW) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/3_Vector_interpolation_with_wind_and_air_pollution_dataset)  
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="50%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="40%"> <br>
 </div>  
   
 We apply **cubic** interpolation to wind vector dataset by using scipy. It returns the value determined from a peicewise cubic, continuously differentiable and approximately curvature-minimizing polynomial surface.  
 Also, We use **IDW** to air pollution dataset. IDW is an interpolation method that computes the score of query points based on the scores of their k-nearest neighbours, weighted by the inverse of their distances.  
 
+**4**. Convection-diffusion equation with interpolated dataset __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/4_Convection-diffusion_equation/convection_diffusion_eqs.m)  
+Central difference method, Neumann boundary condition  
+
+**5**. Long Short Term Memory (LSTM) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/5_Long_short_term_memory_(LSTM)/Forecasting_air_pollution_with_LongShortTermMemory.ipynb)  
 
 
 ## Results
+1. Mathematical Modeling - Convection-diffusion equation  
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/mesh.gif?raw=True" width="45%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/contour.gif?raw=True" width="45%"> <br>
 
+2. Machine Learning - RNN
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real1.jpg?raw=True" width="45%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM1.jpg?raw=True" width="45%"> <br>  
+
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real2.jpg?raw=True" width="45%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM2.jpg?raw=True" width="45%"> <br>
 
 ## Dataset
 [1] 기상자료개방포털, https://data.kma.go.kr/cmmn/main.do
