@@ -11,7 +11,7 @@
 
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="40%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="40%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig4.jpg?raw=True" width="35%"> <br>
 </div>
 
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
@@ -28,9 +28,12 @@ Also, We use **IDW** to air pollution dataset. IDW is an interpolation method th
 
 **4**. Convection-diffusion equation with interpolated dataset __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/4_Convection-diffusion_equation/convection_diffusion_eqs.m)  
 Central difference method, Neumann boundary condition  
-
-**5**. Long Short Term Memory (LSTM) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/5_Long_short_term_memory_(LSTM)/Forecasting_air_pollution_with_LongShortTermMemory.ipynb)  
-
+Convection-diffusion equation and discretized one
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/cde1.jpg?raw=True" width="45%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/cde2.jpg?raw=True" width="45%">
+  
+**5**. Long Short Term Memory (LSTM) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/5_Long_short_term_memory_(LSTM)/Forecasting_air_pollution_with_RNNs.ipynb)  
+Simple RNN, Simple LSTM, Stacked LSTM  
 
 ## Results - Visualization
 > 1. Mathematical Modeling - Convection-diffusion equation  
