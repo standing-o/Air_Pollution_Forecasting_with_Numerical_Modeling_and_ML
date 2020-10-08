@@ -43,8 +43,8 @@ Simple RNN, Simple LSTM, Stacked LSTM
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/mesh.gif?raw=True" width="40%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/contour.gif?raw=True" width="40%"> <br>
-</div>
-
+</div>  
+  
   
 > 2. Machine Learning - LSTM
 <div align="center">
