@@ -2,6 +2,8 @@
 - This project is designed to predict the levels of air pollution in South Korea by using numerical modeling and machine learning techniques.
 - This project is maintained by 오서영, [신영민](https://github.com/young3984)
 
+[[summary]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/summary.pdf)  
+[[presentation]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/presentation.pdf)  
 
 ## Process
 **1**. Refining location (latitude/longitude), wind (directional/speed) and air pollution dataset __ [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/1_Make_location%2Cwind%2C%2Cair_pollution_dataset/Make_location_and_wind_directional%2Cspeed_dataset.ipynb)  
@@ -30,17 +32,19 @@ Central difference method, Neumann boundary condition
 **5**. Long Short Term Memory (LSTM) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/5_Long_short_term_memory_(LSTM)/Forecasting_air_pollution_with_LongShortTermMemory.ipynb)  
 
 
-## Results
+## Results - Visualization
 1. Mathematical Modeling - Convection-diffusion equation  
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/mesh.gif?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/contour.gif?raw=True" width="45%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/mesh.gif?raw=True" width="40%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/contour.gif?raw=True" width="40%"> <br>
 
 2. Machine Learning - RNN
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real1.jpg?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM1.jpg?raw=True" width="45%"> <br>  
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real1.jpg?raw=True" width="40%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM1.jpg?raw=True" width="40%"> <br>  
 
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real2.jpg?raw=True" width="45%">
-<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM2.jpg?raw=True" width="45%"> <br>
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/Real2.jpg?raw=True" width="40%">
+<img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM2.jpg?raw=True" width="40%"> <br>
 
 ## Dataset
 [1] 기상자료개방포털, https://data.kma.go.kr/cmmn/main.do
+[2] 에어코리아, https://www.airkorea.or.kr/index
+
