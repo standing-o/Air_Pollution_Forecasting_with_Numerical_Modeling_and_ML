@@ -2,8 +2,8 @@
 - This project is designed to predict the levels of air pollution in South Korea by using numerical modeling and machine learning techniques.
 - This project is maintained by 오서영, [신영민](https://github.com/young3984)
 
-[[summary]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/summary.pdf)  
-[[presentation]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/presentation.pdf)  
+[[Summary]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/summary.pdf)  
+[[Presentation]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/presentation.pdf)  
 
 ## Process
 #### **1**. Refining location (latitude/longitude), wind (directional/speed) and air pollution dataset __ [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/1_Make_location%2Cwind%2C%2Cair_pollution_dataset/Make_location_and_wind_directional%2Cspeed_dataset.ipynb)  
