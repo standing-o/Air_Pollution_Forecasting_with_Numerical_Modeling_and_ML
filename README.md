@@ -60,5 +60,4 @@ Simple RNN, Simple LSTM, Stacked LSTM
 ```
 [1] 기상자료개방포털, https://data.kma.go.kr/cmmn/main.do  
 [2] 에어코리아, https://www.airkorea.or.kr/index
-
 ```
