@@ -56,7 +56,9 @@ Simple RNN, Simple LSTM, Stacked LSTM
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/LSTM2.jpg?raw=True" width="40%"> <br>
 </div>  
   
-## Dataset
+## Dataset  
+```
 [1] 기상자료개방포털, https://data.kma.go.kr/cmmn/main.do  
 [2] 에어코리아, https://www.airkorea.or.kr/index
 
+```
