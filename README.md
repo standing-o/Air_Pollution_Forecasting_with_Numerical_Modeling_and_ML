@@ -10,7 +10,7 @@
 
 ## Process
 #### **1**. Refining location (latitude/longitude), wind (directional/speed) and air pollution dataset | [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/1_Make_location%2Cwind%2C%2Cair_pollution_dataset/Make_location_and_wind_directional%2Cspeed_dataset.ipynb)  
-#### **2**. Visualization with MATLAB, Simple implementaion of numerical modeling with refined dataset __ [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/tree/master/2_Visualization_and_Simple_numerical_modeling)  
+#### **2**. Visualization with MATLAB, Simple implementaion of numerical modeling with refined dataset | [[code]](https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/tree/master/2_Visualization_and_Simple_numerical_modeling)  
 
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig2.jpg?raw=True" width="40%">
@@ -20,7 +20,7 @@
 It is realistically impossible to obtain wind and air pollution data at all points due to problems such as cost and time.  
 So we come up with a way to get empty space data through **interpolation**.
 
-#### **3**. Cubic Interpolation and Inverse Distance Weighted (IDW) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/3_Vector_interpolation_with_wind_and_air_pollution_dataset)  
+#### **3**. Cubic Interpolation and Inverse Distance Weighted (IDW) | [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/3_Vector_interpolation_with_wind_and_air_pollution_dataset)  
 <div align="center">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig6.jpg?raw=True" width="45%">
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/fig5.jpg?raw=True" width="40%"> <br>
@@ -29,7 +29,7 @@ So we come up with a way to get empty space data through **interpolation**.
 We apply **cubic** interpolation to wind vector dataset by using scipy. It returns the value determined from a peicewise cubic, continuously differentiable and approximately curvature-minimizing polynomial surface.  
 Also, We use **IDW** to air pollution dataset. IDW is an interpolation method that computes the score of query points based on the scores of their k-nearest neighbours, weighted by the inverse of their distances.  
 
-#### **4**. Convection-diffusion equation with interpolated dataset __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/4_Convection-diffusion_equation/convection_diffusion_eqs.m)  
+#### **4**. Convection-diffusion equation with interpolated dataset | [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/4_Convection-diffusion_equation/convection_diffusion_eqs.m)  
 Central difference method, Neumann boundary condition  
   
 Convection-diffusion equation and discretized one  
@@ -38,7 +38,7 @@ Convection-diffusion equation and discretized one
 <img src="https://github.com/OH-Seoyoung/Forecasting_on_air_pollution_with_Numerical_analysis_and_ML/blob/master/figure/cde2.jpg?raw=True" width="45%">
 </div>
   
-#### **5**. Long Short Term Memory (LSTM) __ [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/5_Long_short_term_memory_(LSTM)/Forecasting_air_pollution_with_RNNs.ipynb)  
+#### **5**. Long Short Term Memory (LSTM) | [[code]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/5_Long_short_term_memory_(LSTM)/Forecasting_air_pollution_with_RNNs.ipynb)  
 Simple RNN, Simple LSTM, Stacked LSTM  
 
 ## Results - Visualization
