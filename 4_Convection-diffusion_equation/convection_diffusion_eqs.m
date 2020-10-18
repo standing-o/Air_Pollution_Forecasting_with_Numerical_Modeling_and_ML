@@ -1,27 +1,23 @@
 clear; clc; close all;
 
+% x, y 값 
 x=load('Latitude.txt');
 y=load('Longitude.txt');
 
-map = imread('map.jpg');
-
 x=x*133330; y=y*133330;
+% 기본 값들 넣기
+
 
 % make D size(1,23);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 D=zeros(1,23);
 for ik=1:5
-    D(ik)=100;
+    D(ik)=350;
 end
-for ik=6:10
-    D(ik)=250;
-end
-for ik=11:15
+for ik=6:23
     D(ik)=500;
-end
-for ik=20:23
-    D(ik)=1000;
-end
-  
+end    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 title_D=sprintf('z_D');
@@ -31,27 +27,16 @@ h=x(1,3)-x(1,2);%dt=0.1*h^2;
 dt=0.001*((h^2/(max(max(x))-min(min(x)))));
 n=size(x,1); pxy=zeros(n);
 % return
-aa=load('z_Hour_23_made');
 
-
-
-return
-        imwrite(imind,cm,filename,'gif','Loopcount',10);
-    else
-        imwrite(imind,cm,filename,'gif','WriteMode','append')
-end
-return
-
+% 미세먼지 데이터
 pol=load('Hour_1_inter_p.txt');
 
-
+% 노이만 경계 조건
 pol(1,:)=pol(2,:); pol(n,:)=pol(n-1,:);
 pol(:,1)=pol(:,2); pol(:,n)=pol(:,n-1);
 
 mesh(y,x,pol)
 axis([y(1,1) y(100,100) x(1,1) x(100,100) 0 80])
-
-[imind cm]=rgb2ind(img,256);
 title('Air Polution')
 error=zeros(23,1);
 
@@ -59,7 +44,7 @@ filename='mesh.gif';
 
 % return;
 for ik=1:23
-    
+    ik
     u=load(sprintf('Hour_%1.1d_inter_u.txt',ik));
     u=u*0.1;
     v=load(sprintf('Hour_%1.1d_inter_v.txt',ik));
@@ -70,9 +55,7 @@ for ik=1:23
     for it=1:fix(1*60*60/dt)
         
         
-        if (mod(it,5000)==0)
-            fprintf('%-3d%d\n',ik,it);
-        end
+        it
     
         pol(1,:)=pol(2,:); pol(n,:)=pol(n-1,:);
         pol(:,1)=pol(:,2); pol(:,n)=pol(:,n-1);
@@ -92,13 +75,12 @@ for ik=1:23
         end 
         
         pol=pxy;
-        if (mod(it,10000)==0)
-        mesh(y,x,pol);
-%         title(ik);
+        if (mod(it,10000)==1)
+        mesh(x(2:n-1,2:n-1),y(2:n-1,2:n-1),pol(2:n-1,2:n-1));
         colorbar;
-        ylabel('Longitude');
-        xlabel('Latitude');
-        axis([y(1,1) y(100,100) x(1,1) x(100,100) 0 130])
+        xlabel('Longitude');
+        ylabel('Latitude');
+        axis([x(1,1) x(100,100) y(1,1) y(100,100) 0 130])
         
         drawnow;
         end
@@ -109,8 +91,6 @@ for ik=1:23
     img=frame2im(frame);
     [imind cm]=rgb2ind(img,256);
     
-    
-    
     if ik == 1
         imwrite(imind,cm,filename,'gif','Loopcount',10);
     else
@@ -120,8 +100,10 @@ for ik=1:23
     title=sprintf('z_Hour_%2.2d_made',ik);
     csvwrite(title,pol);   
     k=load(sprintf('Hour_%1.1d_inter_p.txt',ik+1));
-    error(ik)=(sum(sum((pol-k).^2))/10000)^(1/2);
+    error(ik)=(sum(sum((pol-k).^2))/10000)^(1/2)
 end
 title_error=sprintf('z_error');
 csvwrite(title_error,error);   
-error
+
+
+
