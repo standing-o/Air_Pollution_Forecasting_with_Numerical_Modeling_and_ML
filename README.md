@@ -5,6 +5,7 @@
 ### Scientific computing lab project for academic conference
 - This repo is maintained by 오서영, [신영민](https://github.com/young3984)
 - Silver award in natural science academic conference  
+  
 [[Summary]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/summary.pdf) | [[Presentation]](https://github.com/OH-Seoyoung/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/presentation.pdf)  
 
 ## Process
